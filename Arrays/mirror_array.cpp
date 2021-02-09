@@ -15,7 +15,7 @@ for(int i=0;i<n;i++){
     cin>>a2[i];
 }
 for(i=0;i<n;i++){
-    if(i==a2[a1[i]]){
+    if(i==a2[a1[i]]){ //value  v at postion i in arr1 is  present as value i at position v in arr2
         continue;
     }else{
         cout<<"false";
