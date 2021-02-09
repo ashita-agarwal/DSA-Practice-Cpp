@@ -38,7 +38,7 @@ int main() {
         }else{
             cout<<arr[left]<<" and "<<arr[right];
             
-            left++;
+            left++;  //or right--;
             cout<<endl;
         }
     }
