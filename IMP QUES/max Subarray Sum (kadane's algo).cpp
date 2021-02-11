@@ -17,7 +17,7 @@ int main() {
             }
             ms=max(ms,cs); 
         }
-        cout<<ms<<endl; //print max Sum
+        cout<<ms<<endl; //print max sum
     }
     return 0;
 }
