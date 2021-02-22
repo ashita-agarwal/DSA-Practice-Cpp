@@ -16,8 +16,9 @@ int main() {
                min=j;
                                
             }
-            swap(arr[min], arr[i]); //put min value to org pos
+            
         } 
+        swap(arr[min], arr[i]); //put min value to org pos
          
     }
     
