@@ -9,7 +9,7 @@ int main() {
     cout<<endl;
 
     //insertion sort
-    for (int i=1;i<=n;i++){
+    for (int i=1;i<n;i++){
        int hand=arr[i]; //take one vale  from unsorted value  in hand 
        int j;
         for( j=i-1;j>=0 and arr[j]>hand;j--){ 
