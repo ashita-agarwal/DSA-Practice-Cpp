@@ -10,7 +10,7 @@ int main() {
         n=n/10;
         i++;
     }
-    int flag=1;
+    bool flag=1;
     for(int j=0;j<i-1;j++){
         if(a[a[j]]==j){
             continue;
