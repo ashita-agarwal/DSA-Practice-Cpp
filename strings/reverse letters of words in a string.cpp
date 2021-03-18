@@ -8,7 +8,7 @@ int main() {
 	string s;
 	getline(cin,s);
 	
-	for(int i=0;i!=s.length();i++){
+	for(int i=0;i<s.length();i++){
 	    string empty_string="";
 	    while(s[i]!=' ' && i<s.length()){
 	        empty_string.push_back(s[i]);
