@@ -3,14 +3,25 @@ using namespace std;
 bool subArrayExists(int arr[], int n)
     {
         //Your code here
-        int cs=0;
+        bool zero =false;
         
         for(int i=0;i<n;i++){
-            cs += arr[i];
-            if(cs==0){
-                return true;
-            }
+               int  cs=0;
+               
+               for(int j=i;j<n;j++){
+                   cs += arr[j];
+                   if(cs==0){
+                       zero = true;
+                       return true;
+                       break;
+                   }
+               }
+               if (zero == true){
+                   break;
+               }
+               
         }
+            
          
         
         return false;
