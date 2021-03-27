@@ -4,10 +4,18 @@ using namespace std;
 int main () {
 	int n;
 	cin>>n;
-	int TotBits = floor(log2(n))+1;
+	int m = n;
+	//count the number of bits in the given number
+	int count = 0;
+	while(n){
+		n = n>>1;
+		count++;
+	}
 	
-	int mask=(1<<TotBits)-1;
-	cout<< (mask^n);
+	int value = (pow(2,count)-1);
+	int ans = (m ^ value);
+	cout<<ans<<endl;
+	return 0;
 	
 	return 0;
 }
