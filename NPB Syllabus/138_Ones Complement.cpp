@@ -13,6 +13,7 @@ int main () {
 	}
 	
 	int value = (pow(2,count)-1);
+	//or  int value= (1<<count)-1;
 	int ans = (m ^ value);
 	cout<<ans<<endl;
 	return 0;
