@@ -14,7 +14,7 @@ int main() {
 		int j=0;
 		while(num>0){
 			//extract bits of every num
-			count[j]=count[j]+(n&1);
+			count[j]=count[j]+(num&1);
 			j++;
 			num=num>>1;
 		}
