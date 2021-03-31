@@ -34,5 +34,12 @@ int main() {
     for(int i=0;i<k;i++){
         cout<<b[i]<<" ";
     }
+//     int max=INT_MIN;
+//     for(int i=n-1;i>=0;i--){
+//         if(a[i]>max){
+//             max=a[i];
+//             cout<<a[i]<<" ";
+//         }
+//     }
     return 0;
 }
